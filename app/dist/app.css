@@ -25585,7 +25585,49 @@ input[type=color]::placeholder {
 .icon-button:hover .fa-github {
   color: white;
 }
+/* skills */
 
+.skills-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.skills-box .skills-content{
+  flex: 0 0 20rem;
+}
+.skills-content h3{
+  font-size: 1.3rem;
+  line-height: 1;
+  color: black;
+  margin-bottom: .6rem;
+}
+.skills-content .content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+.skills-content .content span{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 8rem;
+  border: black;
+  border-radius: .3rem;
+  font-weight: 600;
+  transition: .3s ease;
+}
+.skills-content .content span:hover{
+   transform: scale(1.2);
+   
+}
+
+.skills-content .content i{
+  font-size: 4rem;
+  color: #5EDDA0
+}
 /* Switcher
 -------------------------------------------------------------- */
 .switcher-container {
