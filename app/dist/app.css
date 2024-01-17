@@ -23087,6 +23087,7 @@ img.mfp-img {
   }
   .inner-page.page-404 .tf-section .image img {
     max-width: 100%;
+    order: 1;
   }
   .inner-page.page-404 .tf-section .content {
     max-width: 100%;
@@ -24809,6 +24810,11 @@ img.mfp-img {
     width: 100%;
   }
 }
+@media (max-width: 500px){
+
+  .image-box .image img{
+    order:1
+  }}
 html {
   margin-right: 0 !important;
 }
@@ -25615,12 +25621,13 @@ input[type=color]::placeholder {
   width: 7rem;
   height: 8rem;
   border: black;
-  border-radius: .3rem;
+  border-radius: 150.3rem;
   font-weight: 600;
   transition: .3s ease;
 }
 .skills-content .content span:hover{
-   transform: scale(1.2);
+   transform: scale(0.9);
+   box-shadow: 7px 4px 5px gray;
    
 }
 
