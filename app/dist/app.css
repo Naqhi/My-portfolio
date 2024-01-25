@@ -1858,6 +1858,10 @@ font-family: 'Poppins', sans-serif;
 }
 .page-title.style11 .content-box .image-box .image img {
   border-radius: 50%;
+  transition: .2s ease-in;
+}
+.page-title.style11 .content-box .image-box .image img:hover{
+  border-radius: 20%;
 }
 .page-title.style11 .content-box .image-box .box.position_1 {
   position: absolute;
@@ -27986,5 +27990,19 @@ img.dark {
 .is_dark .themes-color a:hover span {
   color: #C8F27C;
 }
+@media only screen and (max-width: 768px) {
+ 
+  .content{
+    order: 2;
+    
+  }
+  .image img {
+    width: 80% !important;
+    margin-inline: auto;
+    padding-bottom: 20px;
+  }
+}
+
+
 
 /*# sourceMappingURL=app.css.map */
