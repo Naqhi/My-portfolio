@@ -28001,6 +28001,12 @@ img.dark {
     margin-inline: auto;
     padding-bottom: 20px;
   }
+  .page-title.style11 .content-box .content .title span{
+    font-size: 50px;
+  }
+  .page-title.style11 .content-box .content .title .arow{
+    bottom: 3px;
+  }
 }
 
 
