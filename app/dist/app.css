@@ -28000,6 +28000,8 @@ img.dark {
     width: 80% !important;
     margin-inline: auto;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 3px;
   }
   .page-title.style11 .content-box .content .title span{
     font-size: 46px;
